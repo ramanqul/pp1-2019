@@ -1,6 +1,5 @@
-Create student management app which will
-Shall be a console app. And store data in array of 
-student struct.
+Create student management console app which will
+store data in array of student struct and do following:
 
 1. Create student:
  Here you ask student name, surname, id
