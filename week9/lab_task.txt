@@ -1,0 +1,29 @@
+Create student management app which will
+Shall be a console app. And store data in array of 
+student struct.
+
+1. Create student:
+ Here you ask student name, surname, id
+2. Student search
+ Here you will ask by which term you will search:
+  a. by name
+  b. by surname
+  c. by id
+  After selecting term one shall display resutls 
+  accordingly;
+3. Edit
+  Here you will ask student to enter student id.
+  After you will ask what field to edit:
+  a. name
+  b. surname
+  c.id
+  After ask to enter new value and on enter hit save it
+  
+4. Delete student
+   Here you will ask student id and then confirm
+   the deletion:
+   Do you really want to delete? y/n
+   (if y is entered you must to delete that student)
+
+   
+   
