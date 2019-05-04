@@ -1,0 +1,32 @@
+Extend the code by adding new files into the project:
+1. finance.h file should store the following signatures:
+/*
+print me my credit payments by months
+*/
+void printCreditRates(struct account acc, 
+	double amount, int months);
+
+void printDepositRates(struct account acc,
+	double amount, int months);
+
+/*
+In a loop starting from month 1 till n should
+apply negative rates to current account's money
+*/	
+void takeCredit(struct account acc, 
+	double amount, int months);
+/*
+In a loop starting from month 1 till n should
+apply positive rates to current account's money
+*/	
+void putDeposit(struct account acc, 
+	double amount, int months);
+	
+2. finance_operations.cpp files one should place body code 
+for finance.h file
+
+3. in the main.cpp file use all the functions to display 
+it's operations, for example:
+account acc;
+printCreditRates(acc, 10000, 12);
+takeCredit(acc, 10000, 12);
